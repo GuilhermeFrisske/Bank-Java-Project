@@ -171,8 +171,3 @@ O código foi dividido em classes com funções diferentes. Assim, as regras ban
 
 Foi criada uma exceção própria chamada `NegocioException` para identificar problemas nas operações bancárias e apresentar mensagens mais claras.
 
-**4. Armazenamento em memória**
-
-As contas são armazenadas em um `Map` enquanto o programa está em execução. Essa escolha deixa o projeto mais simples, mas não mantém os dados após fechar o sistema.
-
-No futuro, seria possível adicionar um banco de dados para salvar as contas e o histórico de movimentações.
